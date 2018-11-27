@@ -17,6 +17,7 @@ RUN apk add --no-cache --update-cache curl tree tzdata \
 
 #========== Add Library ==========
 COPY lib/* /lib/
+RUN  chmod a+x /lib/libsigar-amd64-linux.so
 
 #========== Configuration ==========
 
