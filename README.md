@@ -16,4 +16,13 @@ CYAN 基础镜像 Nazgul容器
 ## 历史版本
 
 ###1.0.0
-优化了Nazgul的默认时间，使用/usr/share/zoneinfo/Hongkong时区
+* 优化了Nazgul的默认时间，使用/usr/share/zoneinfo/Hongkong时区
+
+### 1.1.0
+* 增加了sigar库
+
+### 1.1.1
+* sigar库添加了运行权限
+
+### 1.1.2
+* 调整了Sigar库位置
