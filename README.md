@@ -29,3 +29,6 @@ CYAN 基础镜像 Nazgul容器
 
 ### 1.1.3
 * 修改了libsigar安装方式
+
+### 1.1.4
+* 更换了基础镜像frolvlad/alpine-oraclejdk8:cleaned，使用glibc

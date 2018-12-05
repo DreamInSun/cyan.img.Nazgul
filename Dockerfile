@@ -1,6 +1,7 @@
 #========== Basic Image ==========
-FROM java:8-jre-alpine
-MAINTAINER "DreamInSun"
+# FROM java:8-jre-alpine
+FROM frolvlad/alpine-oraclejdk8:cleaned
+MAINTAINER "DreamInSun" 
 
 #========== Environment ==========
 ENV CONFIG_CONN       config.cyan.org.cn
