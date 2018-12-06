@@ -31,4 +31,7 @@ CYAN 基础镜像 Nazgul容器
 * 修改了libsigar安装方式
 
 ### 1.1.4
-* 更换了基础镜像frolvlad/alpine-oraclejdk8:cleaned，使用glibc
+* 更换了基础镜像frolvlad/alpine-oraclejdk8:cleaned，使用glibc,兼容更多本地库
+
+### 1.1.5
+* 更换使用lib中的库替代编译库
