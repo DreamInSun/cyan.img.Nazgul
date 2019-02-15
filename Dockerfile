@@ -11,7 +11,7 @@ ENV PROFILE           product
 ENV API_VERSION       1.1.5
 
 #========== Install ==========
-RUN apk add --no-cache --update-cache bash
+RUN apk add --no-cache --update-cache bash dmidecode
 RUN apk add --no-cache --update-cache curl tree tzdata \
     && cp -r -f /usr/share/zoneinfo/Hongkong /etc/localtime \
     && echo -ne "Nazgul Alpine:3.10&Java:8 image. (`uname -rsv`)\n" >> /root/.built
