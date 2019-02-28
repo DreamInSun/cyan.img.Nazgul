@@ -38,3 +38,6 @@ CYAN 基础镜像 Nazgul容器
 
 ### 1.1.6
 * 增加了dmidecode
+
+### 1.1.7
+* 优化了dmidecode安装的位置
