@@ -41,3 +41,6 @@ CYAN 基础镜像 Nazgul容器
 
 ### 1.1.7
 * 优化了dmidecode安装的位置
+
+### 1.2.0
+* 更换了基础镜像frolvlad/alpine-java:jre8-cleaned 因为oraclejdk8镜像关闭了

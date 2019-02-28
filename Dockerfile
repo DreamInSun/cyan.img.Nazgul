@@ -1,6 +1,7 @@
 #========== Basic Image ==========
 # FROM java:8-jre-alpine
-FROM frolvlad/alpine-oraclejdk8:cleaned
+# FROM frolvlad/alpine-oraclejdk8:cleaned
+FROM frolvlad/alpine-java:jre8-cleaned
 MAINTAINER "DreamInSun" 
 
 #========== Environment ==========
