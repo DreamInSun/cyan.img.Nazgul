@@ -1,0 +1,1 @@
+docker build -t cyan-img-nazgul:ubt-jre-8 .
