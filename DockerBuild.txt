@@ -1,1 +1,1 @@
-docker build -t cyan-img-nazgul:ubt-jre-8 .
+docker build -t core.xyan.xyz:5000:ubt-dragonwell-21 ./ubt-dragonwell-21
