@@ -1,1 +1,1 @@
-sudo docker build -f ./Dockerfile -t core.xyan.xyz:5000/cyan.img.nazgul:bisheng-21 .
+sudo docker build -f ./Dockerfile -t core.xyan.xyz:5000/cyan.img.nazgul:bisheng-21-amd64 .

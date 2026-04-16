@@ -37,8 +37,7 @@ RUN ln -sf /usr/share/zoneinfo/Hongkong /etc/localtime && \
 
 # ========== Add Library ==========
 # 将本地压缩包添加到镜像并自动解压到 /opt 目录
-ADD bisheng-jre-21.0.10 /opt/
-
+ADD /bisheng-jre-21.0.10-b13-linux-x64/bisheng-jre-21.0.10 /opt/bisheng-jre-21.0.10
 
 # ========== Configuration ==========
 
